@@ -1,0 +1,301 @@
+Directory	Package	Object number	Description
+ch	ch0000.pac	0000/0	Reiko body
+ch	ch0000.pac	0000/1	Reiko face
+ch	ch0000.pac	0000/4	Reiko hair
+ch	ch0000.pac	0000/6	Reiko lashes
+ch	ch0000.pac	0010/28	Reiko swimsuit
+ch	ch0000.pac	0010/32	Reiko eyeballs
+ch	ch0000.pac	0030/60	Reiko ring jacket?
+ch	ch0000.pac	0100/63	Rowdy body + glasses
+ch	ch0000.pac	0100/64	Rowdy face
+ch	ch0000.pac	0100/67	Rowdy hair
+ch	ch0000.pac	0100/69	Rowdy lashes
+ch	ch0000.pac	0110/91	Rowdy swimsuit
+ch	ch0000.pac	0110/94	Rowdy eyeballs
+ch	ch0000.pac	0200/119	Makoto body
+ch	ch0000.pac	0200/120	Makoto face
+ch	ch0000.pac	0200/124	Makoto hair
+ch	ch0000.pac	0200/126	Makoto lashes
+ch	ch0000.pac	0200/151	Makoto swimsuit
+ch	ch0000.pac	0200/156	Makoto eyeballs
+ch	ch0000.pac	0300/191	BBD body
+ch	ch0000.pac	0300/192	BBD face
+ch	ch0000.pac	0300/196	BBD hair
+ch	ch0000.pac	0300/198	BBD lashes
+ch	ch0000.pac	0310/223	BBD swimsuit
+ch	ch0000.pac	0310/228	BBD eyeballs
+ch	ch0000.pac	0400/263	Noble body
+ch	ch0000.pac	0400/264	Noble face
+ch	ch0000.pac	0400/266	Noble hair
+ch	ch0000.pac	0400/268	Noble lashes
+ch	ch0000.pac	0410/287	Noble swimsuit
+ch	ch0000.pac	0410/290	Noble eyeballs
+ch	ch0000.pac	0500/315	Evil body
+ch	ch0000.pac	0500/316	Evil face+mask
+ch	ch0000.pac	0500/320	Evil hair
+ch	ch0000.pac	0500/322	Evil lashes
+ch	ch0000.pac	0510/347	Evil swimsuit
+ch	ch0000.pac	0510/351	Evil eyeballs
+ch	ch0000.pac	0600/383	Yasha body
+ch	ch0000.pac	0600/384	Yasha face
+ch	ch0000.pac	0600/386	Yasha hair
+ch	ch0000.pac	0600/388	Yasha lashes
+ch	ch0000.pac	0610/407	Yasha swimsuit fundoshi
+ch	ch0000.pac	0610/410	Yasha eyeballs
+ch	ch0000.pac	0700/435	Benikage body
+ch	ch0000.pac	0700/436	Benikage face/mask
+ch	ch0000.pac	0700/439	Benikage hair
+ch	ch0000.pac	0700/441	Benikage lashes
+ch	ch0000.pac	0710/463	Benikage swimsuit
+ch	ch0000.pac	0710/464	Benikage face/no mask
+ch	ch0000.pac	0710/468	Benikage eyeballs
+ch	ch0000.pac	0710/469	Benikage sunglasses
+ch	ch0000.pac	0800/507	Aigle body
+ch	ch0000.pac	0800/508	Aigle face
+ch	ch0000.pac	0800/511	Aigle hair
+ch	ch0000.pac	0800/512	Aigle boob fur
+ch	ch0000.pac	0800/514	Aigle lashes
+ch	ch0000.pac	0810/539	Aigle swimsuit
+ch	ch0000.pac	0810/544	Aigle eyeballs
+ch	ch0000.pac	0830/579	Aigle sleeves?
+ch	ch0000.pac	0900/581	Khan body
+ch	ch0000.pac	0900/582	Khan face
+ch	ch0000.pac	0900/585	Khan hair
+ch	ch0000.pac	0900/587	Khan lashes
+ch	ch0000.pac	0910/609	Khan swimsuit
+ch	ch0000.pac	0910/613	Khan eyeballs
+ch	ch0000.pac	0910/614	Khan beach hair
+ch	ch1000.pac	1000/0	Dixie body
+ch	ch1000.pac	1000/1	Dixie face
+ch	ch1000.pac	1000/4	Dixie hair
+ch	ch1000.pac	1000/6	Dixie lashes
+ch	ch1000.pac	1010/28	Dixie swimsuit
+ch	ch1000.pac	1010/32	Dixie eyeballs
+ch	ch1000.pac	1100/60	Sgt body with hat (doesn't load in blender)
+ch	ch1000.pac	1100/61	Sgt face
+ch	ch1000.pac	1100/64	Sgt hair
+ch	ch1000.pac	1100/66	Sgt lashes
+ch	ch1000.pac	1110/88	Sgt swimsuit
+ch	ch1000.pac	1110/92	Sgt eyeballs
+ch	ch1000.pac	1110/93	Sgt beach hair
+ch	ch1000.pac	1200/120	Becky body
+ch	ch1000.pac	1200/121	Beckyface
+ch	ch1000.pac	1200/124	Beckyhair
+ch	ch1000.pac	1200/126	Beckylashes
+ch	ch1000.pac	1210/148	Becky swimsuit
+ch	ch1000.pac	1210/151	Becky eyeballs
+ch	ch1000.pac	1300/176	Candy body
+ch	ch1000.pac	1300/177	Candy face
+ch	ch1000.pac	1300/180	Candy hair
+ch	ch1000.pac	1300/182	Candy lashes
+ch	ch1000.pac	1310/204	Candy swimsuit
+ch	ch1000.pac	1310/208	Candy eyeballs
+ch	ch1000.pac	1400/236	Spencer body (doesn't load in blender)
+ch	ch1000.pac	1400/237	Spencer face
+ch	ch1000.pac	1400/240	Spencer hair
+ch	ch1000.pac	1400/241	Spencer lashes
+ch	ch1000.pac	1410/264	Spencer swimsuit
+ch	ch1000.pac	1410/269	Spencer eyeballs
+ch	ch1000.pac	1500/304	Mistress body
+ch	ch1000.pac	1500/305	Mistress face and patch
+ch	ch1000.pac	1500/308	Mistress hair
+ch	ch1000.pac	1500/309	Mistress armbands and hip drapes
+ch	ch1000.pac	1500/311	Mistress single eyelash
+ch	ch1000.pac	1510/336	Mistress swimsuit
+ch	ch1000.pac	1510/339	Mistress eyeballs
+ch	ch1000.pac	1600/364	Anesthesia body
+ch	ch1000.pac	1600/365	Anesthesia face
+ch	ch1000.pac	1600/368	Anesthesia hat
+ch	ch1000.pac	1600/369	Anesthesia hair
+ch	ch1000.pac	1600/371	Anesthesia lashes
+ch	ch1000.pac	1610/396	Anesthesia swimsuit
+ch	ch1000.pac	1610/400	Anesthesia eyeballs
+ch	ch1000.pac	1610/401	Anesthesia hair + hat
+ch	ch1000.pac	1630/428	Manequin body
+ch	ch1000.pac	1700/430	Doctor body
+ch	ch1000.pac	1700/431	Doctor face
+ch	ch1000.pac	1700/434	Doctor mask
+ch	ch1000.pac	1700/435	Doctor hair
+ch	ch1000.pac	1700/437	Doctor lashes
+ch	ch1000.pac	1710/462	Doctor swimsuit
+ch	ch1000.pac	1710/465	Doctor eyeballs
+ch	ch1000.pac	1710/466	Doctor beach hair
+ch	ch1000.pac	1800/490	Aisha body
+ch	ch1000.pac	1800/491	Aisha face
+ch	ch1000.pac	1800/494	Aisha hair
+ch	ch1000.pac	1800/496	Aisha lashes
+ch	ch1000.pac	1810/518	Aisha swimsuit
+ch	ch1000.pac	1810/521	Aisha eyeballs
+ch	ch1000.pac	1900/546	Sista A body
+ch	ch1000.pac	1900/547	Sista A face
+ch	ch1000.pac	1900/549	Sista A tassles and bands
+ch	ch1000.pac	1900/550	Sista A hair
+ch	ch1000.pac	1900/553	Sista A lashes
+ch	ch1000.pac	1910/578	Sista A swimsuit
+ch	ch1000.pac	1910/581	Sista A eyeballs
+ch	ch2000.pac	2000/0	Lady X body
+ch	ch2000.pac	2000/1	Lady X face
+ch	ch2000.pac	2000/2	Lady X left hand
+ch	ch2000.pac	2000/3	Lady X eyeballs
+ch	ch2000.pac	2000/4	Lady X hair
+ch	ch2000.pac	2100/28	Lady X Substinense body top
+ch	ch2000.pac	2100/29	Lady X Substinense body bottom
+ch	ch2000.pac	2300/60	Kuma body
+ch	ch2000.pac	2400/88	Sebastian body
+ch	ch2000.pac	2400/90	Sebastian face
+ch	ch2000.pac	2400/91	Sebastian hair
+ch	ch2000.pac	2410/104	Horse head
+ch	ch2000.pac	2410/106	Horse tail
+ch	ch3000.pac	3000/0	SS Reiko body
+ch	ch3000.pac	3000/1	SS Reiko face
+ch	ch3000.pac	3000/4	SS Reiko hair
+ch	ch3000.pac	3000/6	SS Reiko lashes
+ch	ch3000.pac	3100/56	SS Rowdy body
+ch	ch3000.pac	3100/57	SS Rowdy face
+ch	ch3000.pac	3100/60	SS Rowdy hair
+ch	ch3000.pac	3100/62	SS Rowdy lashes
+ch	ch3000.pac	3200/84	SS Makoto body
+ch	ch3000.pac	3200/85	SS Makoto face
+ch	ch3000.pac	3200/89	SS Makoto leggings
+ch	ch3000.pac	3200/90	SS Makoto hair
+ch	ch3000.pac	3200/93	SS Makoto lashes
+ch	ch3000.pac	3300/124	SS BBD body
+ch	ch3000.pac	3300/125	SS BBD face
+ch	ch3000.pac	3300/129	SS BBD hair
+ch	ch3000.pac	3300/131	SS BBD body
+ch	ch3000.pac	3400/156	SS Noble body
+ch	ch3000.pac	3400/157	SS Noble face
+ch	ch3000.pac	3400/160	SS Noble hair
+ch	ch3000.pac	3400/162	SS Noble lashes
+ch	ch3000.pac	3500/184	SS Evil body (lizard)
+ch	ch3000.pac	3500/185	SS Evil face + mask
+ch	ch3000.pac	3500/188	SS Evil hair
+ch	ch3000.pac	3600/208	SS Yasha body
+ch	ch3000.pac	3600/209	SS Yasha face
+ch	ch3000.pac	3600/212	SS Yasha hair
+ch	ch3000.pac	3600/213	SS Yasha sleeves and poofs
+ch	ch3000.pac	3600/216	SS Yasha lashes
+ch	ch3000.pac	3700/244	SS Benikage body + mask
+ch	ch3000.pac	3700/245	SS Benikage eyeballs
+ch	ch3000.pac	3700/248	SS Benikage hair
+ch	ch3000.pac	3700/249	SS Benikage shoulder tassles
+ch	ch3000.pac	3700/250	SS Benikage more shoulder tassles
+ch	ch3000.pac	3700/251	SS Benikage leg tassles
+ch	ch3000.pac	3700/256	SS Benikage lashes
+ch	ch3000.pac	3800/296	SS Aigle body
+ch	ch3000.pac	3800/297	SS Aigle face
+ch	ch3000.pac	3800/300	SS Aigle hair
+ch	ch3000.pac	3800/301	SS Aigle hair buns
+ch	ch3000.pac	3800/302	SS Aigle body poofs
+ch	ch3000.pac	3800/303	SS Aigle body more poofs
+ch	ch3000.pac	3800/304	SS Aigle body more poofs
+ch	ch3000.pac	3800/305	SS Aigle body more poofs
+ch	ch3000.pac	3800/311	SS Aigle lashes
+ch	ch3000.pac	3900/360	SS Khan body
+ch	ch3000.pac	3900/361	SS Khan face
+ch	ch3000.pac	3900/364	SS Khan hair
+ch	ch3000.pac	3900/365	SS Khan sheep hat
+ch	ch3000.pac	3900/366	SS Khan furry bits
+ch	ch3000.pac	3900/367	SS Khan furry bits
+ch	ch3000.pac	3900/368	SS Khan furry bits
+ch	ch3000.pac	3900/369	SS Khan furry bits
+ch	ch3000.pac	3900/376	SS Khan lashes
+ch	ch4000.pac	4000/0	SS Dixie body
+ch	ch4000.pac	4000/1	SS Dixie face
+ch	ch4000.pac	4000/4	SS Dixie tassles
+ch	ch4000.pac	4000/5	SS Dixie hair
+ch	ch4000.pac	4000/8	SS Dixie lashes
+ch	ch4000.pac	4009/40	SS Dixie shades
+ch	ch4000.pac	4030/45	SS Dixie flag
+ch	ch4000.pac	4100/48	SS Sgt body (doesn't load in blender)
+ch	ch4000.pac	4100/49	SS Sgt face
+ch	ch4000.pac	4100/52	SS Sgt hair
+ch	ch4000.pac	4100/54	SS Sgt lashes
+ch	ch4000.pac	4200/76	SS Becky body
+ch	ch4000.pac	4200/77	SS Becky face
+ch	ch4000.pac	4200/80	SS Becky hair
+ch	ch4000.pac	4200/82	SS Becky lashes
+ch	ch4000.pac	4300/104	SS Candy body
+ch	ch4000.pac	4300/105	SS Candy face
+ch	ch4000.pac	4300/109	SS Candy hair
+ch	ch4000.pac	4300/111	SS Candy lashes
+ch	ch4000.pac	4400/136	SS Spencer body
+ch	ch4000.pac	4400/137	SS Spencer face
+ch	ch4000.pac	4400/140	SS Spencer hair
+ch	ch4000.pac	4400/142	SS Spencer lashes
+ch	ch4000.pac	4500/164	SS Mistress body
+ch	ch4000.pac	4500/165	SS Mistress face + eyepatch
+ch	ch4000.pac	4500/168	SS Mistress hair
+ch	ch4000.pac	4500/170	SS Mistress left lash
+ch	ch4000.pac	4600/192	SS Anesthesia body
+ch	ch4000.pac	4600/193	SS Anesthesia face
+ch	ch4000.pac	4600/196	SS Anesthesia hair
+ch	ch4000.pac	4600/198	SS Anesthesia lashes
+ch	ch4000.pac	4700/220	SS Doctor body (paint)
+ch	ch4000.pac	4700/221	SS Doctor face
+ch	ch4000.pac	4700/223	SS Doctor hair
+ch	ch4000.pac	4700/225	SS Doctor lashes
+ch	ch4000.pac	4800/244	SS Aisha body
+ch	ch4000.pac	4800/245	SS Aisha face
+ch	ch4000.pac	4800/248	SS Aisha head band
+ch	ch4000.pac	4800/249	SS Aisha hair
+ch	ch4000.pac	4900/276	SS Sista A body
+ch	ch4000.pac	4900/277	SS Sista A face
+ch	ch4000.pac	4900/281	SS Sista A hair
+ch	ch4000.pac	4900/282	SS Sista A veil
+ch	ch4000.pac	4900/285	SS Sista A lashes
+ch	ch5000.pac	5500/0	Reiko dancer body
+ch	ch5000.pac	5500/2	Reiko dancer hair
+ch	ch5000.pac	5900/16	Amaguri fat suit
+ch	ch5000.pac	6200/19	Kimono girl body
+ch	ch5000.pac	6200/22	Kimono girl hair
+ch	ch5000.pac	6500/34	Masked dancer body female
+ch	ch5000.pac	6500/36	Masked dancer hair
+ch	ch5000.pac	6800/50	Monk full model
+ch	ch5000.pac	7200/62	Dixie cop body + hat + shades
+ch	ch5000.pac	7200/64	Dixie cop hair
+ch	ch5000.pac	7400/70	Lillie body
+ch	ch5000.pac	7400/73	Lillie hair
+ch	ch5000.pac	7500/75	Sandy body
+ch	ch5000.pac	7500/78	Sandy hair
+ch	ch5000.pac	7600/80	S. Lillie body
+ch	ch5000.pac	7600/83	S. Lillie hair
+ch	ch5000.pac	7700/85	S. Sandy body
+ch	ch5000.pac	7700/88	S. Sandy hair
+ch	ch5000.pac	7800/90	Base? body female
+ch	ch5000.pac	7800/93	Base? hair
+ch	ch5000.pac	7900/95	b.a.s? body female
+ch	ch5000.pac	7900/98	b.a.s? hair
+ch	ch5000.pac	8000/100	guitar player body female
+ch	ch5000.pac	8000/103	guitar player hair
+ch	ch5000.pac	8300/105	Male dancer
+ch	ch5000.pac	8700/117	Aisha dancer 1 body
+ch	ch5000.pac	8700/119	Aisha dancer 1 hair
+ch	ch5000.pac	8800/120	Aisha dancer 2 body
+ch	ch5000.pac	8800/122	Aisha dancer 2 hair
+ch	ch5000.pac	8900/124	Sista A dancer body
+ch	ch5000.pac	8900/127	Sista A dancer hair
+ed	ed00.pac	M000	Arms
+ed	ed00.pac	M100	Torsos
+ed	ed00.pac	M200/0	Body (lambda?)
+ed	ed00.pac	M200/28	Lambda hips/shorts
+ed	ed00.pac	M200/63	Lambda hips/skirt
+ed	ed00.pac	M200/91	School girl shirt and skirt
+ed	ed00.pac	M200/125	Hips and underpants
+ed	ed00.pac	M200/152	Bunny suit
+ed	ed00.pac	M200/154	Bunny tail
+ed	ed00.pac	M200/177	Maid dress
+ed	ed00.pac	M200/179	Maid frills
+ed	ed00.pac	M200/203	Cat suit
+ed	ed00.pac	M200/231	School girl skirt
+ed	ed00.pac	M200/259	China dress
+ed	ed00.pac	M300/34	Lace up boots
+ed	ed00.pac	M300/69	High socks
+ed	ed00.pac	M300/97	Regular socks
+ed	ed00.pac	M300/130	Regular socks
+ed	ed00.pac	M300/185	Maid stockings
+ed	ed00.pac	M300/237	Short socks
+ed	ed00.pac	M300/265	Legs and heels
+ed	ed00.pac	M400	Lamdba hair
+ed	ed01.pac	M200	Unlockable swimsuits and reward costumes
+ed	ex00.pac	M200	More swimsuits
