@@ -1,7 +1,7 @@
 # RRXX-Mod-Howto
 This repository contains a collection of docs explaining how to mod Rumble Roses XX.
 
-All the tools necessary should be available from other repositories under this account. These are all just copies that are hosted here, I didn not create any of them myself, and you should probably get them from official sources instead. They're only provided here for convenience.
+All the tools necessary should be available from other repositories under this account. These are all just copies that are hosted here, I did not create any of them myself, and you should probably get them from official sources instead. They're only provided here for convenience.
 
 First step in modding the game is getting the game files, obviously. You can obtain these legally by purchasing the game digitally from Microsoft or getting a second hand disc version. You will then be able to fairly easily move the game files to your PC. This can be done either by copying the game files from your Xbox 360 to a USB stick, taking the Xbox 360 hard drive and reading the files off of it on your PC, or by simply downloading it directly from the Xbox Marketplace on your PC. If you don't own an Xbox 360 I strongly advise getting the digital version rather than disc, but if you already own a 360 getting the game from the disc is pretty straightforward as well.
 
