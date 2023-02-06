@@ -71,7 +71,7 @@ ch	ch1000.pac	1000/4	Dixie hair
 ch	ch1000.pac	1000/6	Dixie lashes
 ch	ch1000.pac	1010/28	Dixie swimsuit
 ch	ch1000.pac	1010/32	Dixie eyeballs
-ch	ch1000.pac	1100/60	Sgt body with hat (doesn't load in blender)
+ch	ch1000.pac	1100/60	Sgt body with hat
 ch	ch1000.pac	1100/61	Sgt face
 ch	ch1000.pac	1100/64	Sgt hair
 ch	ch1000.pac	1100/66	Sgt lashes
@@ -90,7 +90,7 @@ ch	ch1000.pac	1300/180	Candy hair
 ch	ch1000.pac	1300/182	Candy lashes
 ch	ch1000.pac	1310/204	Candy swimsuit
 ch	ch1000.pac	1310/208	Candy eyeballs
-ch	ch1000.pac	1400/236	Spencer body (doesn't load in blender)
+ch	ch1000.pac	1400/236	Spencer body
 ch	ch1000.pac	1400/237	Spencer face
 ch	ch1000.pac	1400/240	Spencer hair
 ch	ch1000.pac	1400/241	Spencer lashes
@@ -207,7 +207,7 @@ ch	ch4000.pac	4000/5	SS Dixie hair
 ch	ch4000.pac	4000/8	SS Dixie lashes
 ch	ch4000.pac	4009/40	SS Dixie shades
 ch	ch4000.pac	4030/45	SS Dixie flag
-ch	ch4000.pac	4100/48	SS Sgt body (doesn't load in blender)
+ch	ch4000.pac	4100/48	SS Sgt body
 ch	ch4000.pac	4100/49	SS Sgt face
 ch	ch4000.pac	4100/52	SS Sgt hair
 ch	ch4000.pac	4100/54	SS Sgt lashes
