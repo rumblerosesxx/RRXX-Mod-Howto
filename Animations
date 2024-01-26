@@ -1,0 +1,11 @@
+Animations are stored in m.pac/GAME/0 and 6.
+
+0 seems to be the primary move animations, and 6 contains "selling" moves for second character. The format is YMKs as described here:
+
+https://www.360haven.com/forums/showthread.php/21710-Yukes-s-Pre-WWE-12-YMKS-Animation-File-Structure-Tutorial
+
+These can be opened and individual moves extracted using SVR Anim Editor tool.
+
+They can further be converted to text format using the Animation Unpacker/Repacker tool, which provides clues as to which bones in the model the various float values correspond to in the animation.
+
+Using this info a tool can be made to extract the animations into something that can be read by blender, such as bhv, and potentially also convert in the other direction to make new moves available inside the game.
