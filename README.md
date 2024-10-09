@@ -19,4 +19,30 @@ Once you have the game in GOD format you will need to unpack it.
 
 The easiest way to unpack the game is to use Xenia canary File/Install option. This will put the unpacked game files in your Documents/Xenia/content folder.
 
-TODO: add further info
+Your next step should be to unpack the .pac files found in the game directory. The best tool for that currently is to use my batch script that recursively opens the entire .pac archive, found at:
+
+https://github.com/rumblerosesxx/rrxx-packer
+
+Character related files are in the ch/ directory, and there is a rough guide to what character files are located where here:
+
+https://github.com/rumblerosesxx/RRXX-Mod-Howto/blob/main/Model%20File%20Locations
+
+There is a lot of different things you can do once you have access to these, such as replace textures or edit the model files.
+
+Textures are generally kept in the same directory as the model files and you can replace them and repack the archive using the batch script mentioned above. Game textures are generally in DDS format but you can just use PNG files instead, as long as you name them the same as the originals. Just make sure you don't exlode the size too much as it may cause the game to crash, but PNG is generally smaller so should probably be fine.
+
+You can also edit the YOBJ model files. This can be done by loading them into Blender or hex editing directly.
+
+Both approaches have their merits and limitations. To load the YOBJ into blender you can use the import script:
+
+https://github.com/rumblerosesxx/rrxx_tools_addon
+
+The only edits you will be able to do however is hiding certain meshes, you cannot currently modify or add vertices due to limitations in the export functionality.
+
+If you want to hex edit directly, I recommend using ImHex alongside the hexpat file I made that allows you to easily navigate the binary structure. Simply open the YOBJ in ImHex then right-click inside Patter Editor window and choose "Browse" to select the hexpat file found here:
+
+https://raw.githubusercontent.com/rumblerosesxx/RRXX-Mod-Howto/refs/heads/main/yobj.hexpat
+
+(Obviously save it to your PC first)
+
+Once you do this you have nicely highlighted and browseable YOBJ you can easily explore and modify.
