@@ -1,0 +1,64 @@
+The following is a list of rendering functions that are commonly found in the YOBJ and used to apply various rendering effects, along with what parameters they take.
+Each function name is 12 bytes long, then next 4 bytes are perhaps the encoding for the argument list (mayby length and type?) though that is also encoded in the
+function names, and is then followed by the arguments themselves which vary in length depending on the function.
+
+MatAmbCol (Material Ambient Color):
+
+    Type: Vector (4 float values) representing RGBA.
+
+MatDifCol (Material Diffuse Color):
+
+    Type: Vector (4 float values) representing RGBA.
+
+SpecularCol (Specular Color):
+
+    Type: Vector (4 float values) representing RGBA, used for shiny reflections.
+
+SpecularLev (Specular Level):
+
+    Type: Float value, controlling the intensity of specular reflections.
+    Example: 1.0 for normal intensity, 2.0 for exaggerated highlights.
+
+SpecularPow (Specular Power):
+
+    Type: Float value, often large (e.g., 10.0 to 100.0) to define the sharpness of the specular highlight.
+    Example: 32.0 for a focused specular highlight.
+
+HDRAlpha:
+
+    Type: Float value, controlling the transparency or blending under HDR conditions.
+    Example: 0.5 for 50% alpha in HDR rendering.
+
+RefRegMap (Reflection Region Map):
+
+    Type: Texture reference, may be pointing to a specific reflection map (cubemap, spherical map, etc.).
+
+ReflectAdd (Reflection Additive):
+
+    Type: Float value, controlling how strongly the reflection is added to the material.
+    Example: 1.0 for normal reflection, 0.5 for blending.
+
+ReflectAlpha (Reflection Alpha):
+
+    Type: Float value, controlling the alpha transparency of the reflection.
+    Example: 0.5 for semi-transparent reflection.
+
+texDiffuse (Diffuse Texture):
+
+    Type: Texture reference, pointing to the index in the texture array.
+
+texSpecularMap (Specular Map Texture):
+
+    Type: Texture reference, pointing to the specular map.
+
+texNormal (Normal Map Texture):
+
+    Type: Texture reference, pointing to the normal map.
+
+texSphRefction (Spherical Reflection Map Texture):
+
+    Type: Texture reference, pointing to a spherical reflection map (typically an environment map).
+
+texRefctionReg (Reflection Region Map Texture):
+
+    Type: Texture reference, pointing to the reflection region map.
