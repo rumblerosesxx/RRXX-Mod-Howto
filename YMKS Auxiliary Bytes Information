@@ -1,0 +1,30 @@
+YMKS Auxiliary Bytes Writeup
+
+Occasionally in animation files you will have a chunks which contain no keyframe information (No actual skeletal animation data). You may also experience chunks which have additional data overhead after the chunk length delimiter bytes. This is known as auxiliary data.
+
+
+The auxiliary data contains additional information to help with the processing of animation data. This can include information on facial expression, sound effects, looping or frame-jump mechanisms, in addition to other sub-animation calls.
+
+As mentioned the auxiliary field can be identified after the chunk length delimiter byte. The auxiliary field has a defined length which can be calculated by byte – 0x80. The length does not include the designated byte.
+
+For an example byte sequence… CF 82 C0 DC 7D. The auxiliary length would be, 0x82-0x80, giving a length of 0x02 bytes for auxiliary data. This information may also be discussed in other guides concerning the animation data for YMKS. 
+
+Now, to try and give meaning to all these random sequence of bytes. From investigation, a given property can have a length of multiple bytes. In that, C0 DC  reference a property, in addition to a lookup. To help make sense of this. The YMKS header defines the length in bytes for a given property based on the initial byte. 
+
+In the case of byte sequence CF 82 C0 DC 7D. Look at the first byte after the auxiliary length (C0). Now refer to the YMKS header, and go to offset 0xC0. The value here will determine the length in bytes expected for C0, which in the case of Rumble Roses is 2. What we can infer from this is that C0 should be 2 bytes in length, and from this we can infer the pairing for a full chunk.
+
+To look at a more complicated example… D4 87 21 C0 DC 10 01 00 01. Refer to 0x21 offset in the YMKS header (Value 01), we can infer 21 is a standalone byte. In the case of Rumble Roses XX, this determines when damage will go out to the seller. C0 DC, another pairing as previously discussed. Next byte would be 10… Refer to offset 0x10 in the YMKS header (This should be a value of 04, so the length is 4). This means that 10 01 00 01 refers to a single property. The specific property for this is unknown to me currently. So we can organize the auxiliary into a little bit of structure, like such… D4 87 [21] [C0 DC] [10 01 00 01]. Using this we can eventually look at a given pair to see how they influence the animation.
+ 
+Example Bytes include:
+•	5C 0xYY – Typically this byte pair will appear in the first auxiliary byte sequence. In fact, it is typically the first pair of bytes you will see. The exception to this from my research is normal attack moves, e.g., striking, and finishers with camera effects. This byte pair defines base positional data, e.g., ground grapple. The second byte being what defines the position itself. The can cause monitor issues with how ‘coherent’ the animation is between attacker and seller. If you find imported animations without sound, then this is the byte pair you need to manipulate, as different games will use different lookups for the sounds to call.
+
+•	51 0A – Special property, uncommon sequence, typically used in 67 index files (e.g., xxxx-6700/01). Appears to carry over certain property data, e.g., submission gauges, between base animation and core submission loop.
+ 
+•	01 00(YY) – Defines looping and frame jumping mechanisms, second byte determines the frame value to jump to, or loop back on (this is an indefinite loop). E.g., 01 00 will jump back to the start of the animation. Common in 67 submission files, fight stances, or other animations which persist indefinitely.
+
+•	39 – Submission flag, this defines the submission gauge, and sets the animation as a submission at that given frame. Certain games that have a distinctive Submission A and Submission B system may have different values. 
+
+
+•	5A 67(YY) – Determines transition between different animations. 67 refers to the first values after the animation ID, e.g., 24AF-[67]01. Refer to value in square brackets for what this calls. Certain moves such as People’s Elbow uses different values to call parts of the whole animation. Transition between submission loop and submission victory or escape is also handled by different logic. 
+
+•	58/59 – This determines transition between attack animation and fighting pose stance. This byte is usually found at the end of an animation or near the end of the animation. Very commonly found in regular attacks. Different transitions do have different values and/or byte pairs, but this is currently researched (but can also be found at the end of the animation).
