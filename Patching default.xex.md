@@ -71,7 +71,7 @@ Essentially what you wnat to do is take an existing xenia patch, e.g.
 ```
 
 Here we have address 0x82012d00 being updated with the value 0x4018e38e. In this case this is a bigendian float value of 2.39 that roughly corresponds to the resolution ratio of 21:9.
-We can also replace this with 0x4018e38e (or 2.1) for 21:10 ratio, but that's not important for this document.
+We can also replace this with 0x40066666 (or 2.1) for 21:10 ratio, but that's not important for this document.
 
 What we want to do is bake this patch directly into our xex. For that we need to subtract 0x82000000 from the address which gives us 0x00012d00 and then add 0x3000 to get the location
 of this value inside the xex. In this case it should be 0x00015d00. Keep in mind we cannot modify the encrypted default.xex and need to update the uncrypted.xex we generated earlier.
