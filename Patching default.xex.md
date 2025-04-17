@@ -1,4 +1,4 @@
-Xenia Canary allows patching the xex in RAM using the patches mechanism, so in general you should not need to modify the default.xex directly, unless you want to make the patches availabe on
+Xenia Canary allows patching the xex in RAM using the patches mechanism, so in general you should not need to modify the default.xex directly, unless you want to make the patches available on
 an RGH console or older xenia build that doesn't support patches
 .
 A bunch of patches have already been created by Rumble XX over at https://github.com/Rumble-XX/Rumble-Roses-XX
