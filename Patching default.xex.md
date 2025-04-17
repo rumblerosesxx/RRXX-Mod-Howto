@@ -55,7 +55,7 @@ The other imporant piece of info is the Load Address of 0x82000000, which will b
 our executable. In addition the xex header takes up 0x3000 bytes so we need to further adjust the offset we get in the running Xenia process by adding 0x3000 when looking for the same location
 inside uncrypted.xex
 
-Essentially what you wnat to do is take an existing xenia patch, e.g.
+Essentially what you want to do is take an existing xenia patch, e.g.
 
 ```
 [[patch]]
@@ -77,4 +77,4 @@ What we want to do is bake this patch directly into our xex. For that we need to
 of this value inside the xex. In this case it should be 0x00015d00. Keep in mind we cannot modify the encrypted default.xex and need to update the uncrypted.xex we generated earlier.
 It should be the same size as default.xex but the embedded executable will be unencrypted and possible to modify.
 
-Use a hex editor of your choice, e.g. HxD, to make the change at the appropriate address after doing the math described above and test your change by launching uncrypted.xex with Xenia.
+Use a hex editor of your choice, e.g. HxD, to make the change at the appropriate address after doing the math described above and test your change by launching the updated uncrypted.xex with Xenia.
